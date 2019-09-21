@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: grey;
+}
+.modal-window {
+    font-family: 'Arial';
+    width: 640px;
+    background: white;
+    margin: 30px auto;
+    padding: 20px 28px;
+}
+.phone-number {
+    font-size: 40px;
+    font-weight: normal;
+    margin: 0;
+}
+.description {
+    margin-top: 5px;
+    font-size: 14px;
+    color: grey;
+    margin-bottom: 19px;
+}
+.person-info {
+    margin-top: 3px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.person-info-line {
+    margin-top: 3px;
+    font-size: 14px;
+}
+.person-name {
+    font-size: 17px;
+    margin-top: 5px;
+    margin-bottom: 1px;
+    color: blue;
+    text-decoration: none;
+}
+.person-avatar {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: grey;
+    left: 230px;
+}
+.adress-title {
+    margin: 20px 0 5px;
+    color: grey;
+    font-size: 15px;
+    font-weight: 400px;
+}
+.person-adress {
+    margin:0;
+}
+.card-section {
+    position: relative;
+    border-bottom: 1px solid grey;
+    padding-bottom: 15px;
+}
+.person-info-button {
+    position: absolute;
+    right: 9px;
+    min-width: 160px;
+    bottom: 15px;
+    padding: 5px 20px;
+    font-size: 14px;
+    border-radius: 3px;
+    border-style: none;
+    background-color: white;
+    border: 1px solid grey;
+    cursor: pointer;
+}
+.example {
+    min-width: 120px;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 3px;
+    border-style: none;
+    background-color: white;
+    border: 1px solid grey;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.check {
+    min-width: 120px;
+    padding: 6px 10px;
+    font-size: 16px;
+    border-radius: 3px;
+    border-style: none;
+    color: white;
+    background-color: rgb(52, 130, 248);
+    cursor: pointer;
+    font-weight: 400px;
+}
+
+.check-apartment {
+    padding: 10px;
+    border-bottom: 1px solid grey;
+    padding-bottom: 20px;
+}
+.check-apartment-title {
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 10px;
+    
+}
+.check-apartment-discription {
+color: grey;
+text-align: justify;
+}
+.check-apartment-danger {
+    margin-top: 10px;
+    display: block;
+    font-weight: bold;
+}
+.check-apartment-logo {
+    margin-left: 85px;
+}
